@@ -2,7 +2,7 @@
   "name": "bora-codar-bot",
   "version": "1.0.0",
   "description": "Bot pra postar um \"bora codar\" diferente todo dia",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,8 +11,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@atproto/api": "^0.13.5",
-    "cron": "^3.1.7",
-    "dotenv": "^16.4.5"
+    "@atproto/api": "^0.16.6",
+    "cron": "^4.3.3",
+    "twitter-api-v2": "^1.25.0"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
   }
 }
